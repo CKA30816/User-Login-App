@@ -1,0 +1,79 @@
+body {
+
+background-color: rgb(55, 150, 63);
+
+font-style: italic;
+
+color: white;
+
+}
+
+.header{
+
+background-color: rgb(20, 183, 5);
+
+padding: 10px;
+
+}
+
+.textbox{
+
+background-color: rgb(5, 98, 174);
+
+color: white;
+
+width: 300px;
+
+height: 30px;
+
+border-radius: 5px;
+
+border: 2px solid black;
+
+font-size: 16px;
+
+padding: 5px;
+
+}
+
+.button {
+
+color: rgb(198, 195, 0);
+
+}
+
+.btn {
+
+background-color: rgb(157, 37, 37);
+
+color: white;
+
+width: 150px;
+
+height: 30px;
+
+border-radius: 5px;
+
+border: 2px solid black;
+
+font-size: 16px;
+
+font-style: italic;
+
+padding: 5px;
+
+}
+
+.msg {
+
+color: rgb(8, 245, 229);
+
+}
+
+input::placeholder {
+
+color: white;
+
+font-style: italic;
+
+}
