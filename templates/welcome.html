@@ -1,39 +1,27 @@
 <html>
+  <head>
+    <title>Welcome Page</title>
 
-<head>
+    <link rel="stylesheet" type="text/css" href="/static/style.css" />
+  </head>
 
-<title>Welcome Page</title>
+  <body>
+    <div align="center" class="border">
+      <div class="header">
+        <h1 class="word">Welcome</h1>
+      </div>
 
-<link rel="stylesheet" type="text/css" href="/static/style.css" />
+      <h1 class="bottom">
+        Hi {{name}}!!<br /><br />
 
-</head>
+        {{msg}}!!<br /><br />
 
-<body>
+        You Are Welcome <br /><br />
 
-<div align="center" class="border">
+        Happy to have you here
+      </h1>
 
-<div class="header">
-
-<h1 class="word">Welcome</h1>
-
-</div>
-
-<h1 class="bottom">
-
-Hi {{name}}!!<br /><br />
-
-{{msg}}!!<br /><br />
-
-You Are Welcome <br /><br />
-
-Happy to have you here
-
-</h1>
-
-<a href="/logout" class="btn">Log Out</a>
-
-</div>
-
-</body>
-
+      <a href="/logout" class="btn">Log Out</a>
+    </div>
+  </body>
 </html>
